@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+    type="image/png"
+    sizes="16x16"
+    rel="icon"
+    href="images/icons8-globe-16.png"
+  />
+  <link
+    type="image/png"
+    sizes="32x32"
+    rel="icon"
+    href="images/icons8-globe-32.png"
+  />
+  <link
+    type="image/png"
+    sizes="96x96"
+    rel="icon"
+    href="images/icons8-globe-96.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="72x72"
+    href="images/icons8-globe-72.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="96x96"
+    href="images/icons8-globe-96.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="57x57"
+    href="images/icons8-globe-57.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="60x60"
+    href="images/icons8-globe-60.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="72x72"
+    href="images/icons8-globe-72.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="76x76"
+    href="images/icons8-globe-76.png"
+  />
+  <meta
+    name="msapplication-square70x70logo"
+    content="images/icons8-globe-70.png"
+  />
+  <meta name="msapplication-TileColor" content="#C0FFEE" />
+  <meta
+    name="Countries Explorer"
+    content="Explore all the countries related data"
+  />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Where in the world?</h1>
+        <div class="container-dark">
+          <i class="fa-regular fa-moon image-dark"></i>
+          <button class="button-dark">Dark Mode</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="content-container">
+        <div class="container-detail-light">
+          <div class="container-flag">
+            <div class="container-button-back">
+              <i class="fa-solid fa-arrow-left image-arrow"></i>
+              <a href="/" class="button-back">Back</a>
+            </div>
+            <img class="country-flag" src="" />
+          </div>
+          <div class="country-all-detail-container">
+            <h2></h2>
+            <div class="country-details-container">
+              <div>
+                <p>
+                  <span>Native Name:</span> <span class="native-name"></span>
+                </p>
+                <p><span>Region:</span> <span class="region"></span></p>
+                <p><span>Population:</span> <span class="population"></span></p>
+                <p><span>Sub Region</span> <span class="sub-region"></span></p>
+                <p><span>Capital:</span> <span class="capital"></span></p>
+              </div>
+              <div>
+                <p>
+                  <span>Top Level Domain:</span>
+                  <span class="top-level-domain"></span>
+                </p>
+                <p><span>Currencies:</span> <span class="currencies"></span></p>
+                <p><span>Languages:</span> <span class="languages"></span></p>
+              </div>
+            </div>
+            <div class="borders-container">
+              <div class="borders-label">Borde Countries:</div>
+              <div class="border-list"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./assets/country.js" type="module"></script>
+  </body>
+</html>

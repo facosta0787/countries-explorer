@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="images/icons8-globe-16.png"
+    />
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="images/icons8-globe-32.png"
+    />
+    <link
+      type="image/png"
+      sizes="96x96"
+      rel="icon"
+      href="images/icons8-globe-96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="72x72"
+      href="images/icons8-globe-72.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="images/icons8-globe-96.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="57x57"
+      href="images/icons8-globe-57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="60x60"
+      href="images/icons8-globe-60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="72x72"
+      href="images/icons8-globe-72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="76x76"
+      href="images/icons8-globe-76.png"
+    />
+    <meta
+      name="msapplication-square70x70logo"
+      content="images/icons8-globe-70.png"
+    />
+    <meta name="msapplication-TileColor" content="#C0FFEE" />
+    <meta
+      name="Countries Explorer"
+      content="Explore all the countries related data"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Where in the world?</h1>
+        <div class="container-dark">
+          <i class="fa-regular fa-moon image-dark"></i>
+          <button class="button-dark">Dark Mode</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="content-container">
+        <div class="actions-container">
+          <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass image-search"></i>
+            <input
+              class="search"
+              type="text"
+              placeholder="Search for a country..."
+            />
+          </div>
+          <select class="select-regions" name="region-selector">
+            <option value="">Filter by Region</option>
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+        </div>
+
+        <section class="countries-list">
+          <div class="spinner"></div>
+        </section>
+      </div>
+    </main>
+
+    <script src="./assets/index.js" type="module"></script>
+  </body>
+</html>
